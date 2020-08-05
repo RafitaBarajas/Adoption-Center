@@ -1,0 +1,55 @@
+.navbar-dark {
+	background-color: #FF8303;
+}
+
+.dropdown-item:hover {
+	background-color: #FEDEBE;
+}
+
+.btn-outline-light:hover {
+	color: #FF8303 !important;
+}
+
+.text-orange {
+	color: #FF8303 !important;
+}
+
+.text-pale {
+	color: #FEDEBE !important;
+}
+
+::placeholder {
+	color: #FD5602 !important;
+	opacity: 0.6 !important;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+.back-img {
+	opacity: 0.6;
+}
+
+.with-back-img-1 {
+	background-image: url(../img/main-img-1.jpg);
+	background-size: cover;
+}
+
+.with-back-img-2 {
+	background-image: url(../img/main-img-2.jpg);
+	background-size: cover;
+}
+
+.footer {
+	background-color: #FEDEBE;
+	margin: 0px auto;
+	padding: 40px 0px 20px 0px;
+}
